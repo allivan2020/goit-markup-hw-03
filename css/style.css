@@ -314,11 +314,13 @@ p {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
-  /* padding-left: 156px; */
   text-align: start;
   background-color: var(--navy-blue);
 }
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
