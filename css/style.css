@@ -31,7 +31,6 @@
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 3px solid red; */
 }
 
 body {
@@ -96,8 +95,7 @@ section {
   text-transform: uppercase;
   color: var(--iris);
 }
-.logo-span {
-}
+
 .header-list {
   display: flex;
   gap: 40px;
@@ -115,8 +113,7 @@ section {
 .header-item:focus {
   color: var(--ocean);
 }
-.header-contact {
-}
+
 .header-contact-list {
   display: flex;
   gap: 40px;
@@ -290,7 +287,6 @@ section {
 }
 .gallery-item {
 }
-
 .gallery-item-card {
   flex-basis: calc((100% - 72px) / 4);
 }
